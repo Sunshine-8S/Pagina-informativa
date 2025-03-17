@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Asegura que ocupe al menos la altura de la ventana */
+    flex-direction: column;
+}
+.contenedor {
+    display: flex;
+    width: 80%; /* Ajusta el tamaño del contenido */
+    max-width: 1200px; /* Tamaño máximo del contenedor */
+    flex-direction: column; /* Asegura que los elementos estén en una columna */
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc; /* Línea separadora */
+}
+#logo-volley {
+    float: left;
+    width: 80px;
+    margin: 0px 50px 8px 100px;
+}
+.navbar {
+    display: block;
+    padding: 30px;
+}
+a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+/* container */
+
+.explicacion {
+    background-color: aliceblue;
+}
+.main-info {
+    width: 70%;
+    margin: 30px 0px 0px 100px;
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;   /* Centrar verticalmente */
+    height: 150px;          /* Ajusta la altura del contenedor */
+}
+h1 {
+    font-family: Arial, Helvetica, lucida, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(42, 56, 187);
+    text-align: left;    
+}
+#remate {
+    width: 60%;
+    float: right;
+    margin-top: 30px;
+}
+.btn {
+    background-color: rgb(247, 247, 226);
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 50px 0px 0px 50px;
+}
+.btn:hover {
+    background-color: rgb(245, 245, 191);
+}
+
+/* Footer */
+
+footer {
+    align-self: flex-end;
+    width: 100%;
+    text-align: right;
+}
