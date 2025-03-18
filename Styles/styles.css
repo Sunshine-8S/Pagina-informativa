@@ -57,7 +57,7 @@ main {
     margin: 30px auto;
 }
 
-.volley-descripcion {
+section {
     padding-bottom: 40px;
 }
 
@@ -66,16 +66,30 @@ h1 {
     text-align: center;
 }
 
-.volley {
+.tradicional {
     display: flex;
     width: 350px;
     float: right;
-    margin: 0 0 10px 10px;
+    margin: 0 0px 10px 10px;
+}
+
+.playa {
+    display: flex;
+    width: 350px;
+    float: left;
+    margin: 0 10px 0 10px;
 }
 
 h2 {
     font-size: 35px;
     text-align: center;
+}
+
+footer {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    border-top: 2px solid black;
 }
 
 
