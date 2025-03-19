@@ -1,0 +1,116 @@
+body {
+    background: #dedd83;
+    background: linear-gradient(90deg, #dedd83 26%, #889ae0 70%);;
+}
+
+/* Header */
+
+.nav {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+}
+
+.nav_menu {
+    display: flex;
+    margin: auto;
+    list-style-type: none; /* Le quita los puntos a la lista desordenada */
+    gap: 21px; /* Espacio entre los elementos */
+}
+
+.menu {
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 8px;
+    font-size: 15px;
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: black; /* Color del texto */;
+    transition: font-size 0.5s ease; /* Suaviza la transición */
+}
+
+.menu:hover {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#logo {
+    margin: auto;
+    width: 75px;    
+    border: 2px solid black;
+    border-radius: 30%;
+}
+
+/* Main */
+
+h1 {
+    text-align: center;
+}
+
+main {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.FIVB {
+    color: #ED2B2A; 
+    text-decoration: underline;
+    transition: color 0.3s ease; /* Suaviza el cambio de color en hover */
+}
+
+.FIVB:hover {
+    color: black; /* Cambia el color cuando pasas el cursor */
+    font-weight: bold; /* Pone en negrita el texto */
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+section {
+    padding-bottom: 40px;
+}
+
+.volley {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.posiciones {
+    display: flex;
+    float: right;
+    width: 300px;
+    margin: 0 0 0 10px;
+}
+
+.balon {
+    display: flex;
+    float: left;
+    width: 300px;
+    margin: 0 50px 0 0;
+}
+
+.composicion, .marcas{
+    list-style: none; /* Quita los puntos de la lista */
+    margin: 0; /* Aplica sangría en las líneas siguientes */
+    text-indent: -30px; /* Ajusta la alineación del icono */
+}
+
+
+.balon-lista {
+    margin-bottom: 8px;
+}
+
+.balon-lista::before {
+    content: '';
+    display: inline-block;
+    width: 20px; /* Ajusta el ancho de la imagen */
+    height: 20px; /* Ajusta la altura de la imagen */
+    background-image: url('../Assets/volley-listas.png');
+    background-size: cover; /* Escala la imagen dentro del espacio definido */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+

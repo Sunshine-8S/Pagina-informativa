@@ -20,27 +20,20 @@ body {
     gap: 21px; /* Espacio entre los elementos */
 }
 
-a {
-    font-size: 17px;
+.menu {
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 8px;
+    font-size: 15px;
     text-decoration: none; /* Quita el subrayado de los enlaces */
     color: black; /* Color del texto */;
     transition: font-size 0.5s ease; /* Suaviza la transición */
 }
 
-.li-1:hover {
-    color: white; /* Color del texto al pasar el ratón por encima */
-    background-color: red;
+.menu:hover {
+    background-color: whitesmoke;
     border-radius: 5px;
-    padding: 2px;
-    font-size: 21px;
-}
-
-.li-2:hover {
-    color: white; /* Color del texto al pasar el ratón por encima */
-    background-color: green;
-    border-radius: 5px;
-    padding: 2px;
-    font-size: 21px;
+    font-size: 16px;
 }
 
 #logo {
@@ -64,6 +57,11 @@ section {
 h1 {
     font-size: 35px;
     text-align: center;
+}
+
+.volley {
+    border: 1px solid white;
+    border-radius: 7px;
 }
 
 .tradicional {
@@ -91,5 +89,7 @@ footer {
     margin: auto;
     border-top: 2px solid black;
 }
+
+
 
 
