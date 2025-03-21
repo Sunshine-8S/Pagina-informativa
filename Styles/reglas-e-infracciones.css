@@ -36,8 +36,11 @@ body {
     font-size: 16px;
 }
 
-#logo {
+#homePage {
     margin: auto;
+}
+
+#logo {
     width: 75px;    
     border: 2px solid black;
     border-radius: 30%;
@@ -68,6 +71,7 @@ main {
 h2 {
     font-size: 25px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 section {
@@ -79,11 +83,11 @@ section {
     border-radius: 10px;
 }
 
-.posiciones {
+.jugadores {
     display: flex;
     float: right;
     width: 300px;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 50px;
 }
 
 .balon {
@@ -93,7 +97,7 @@ section {
     margin: 0 50px 0 0;
 }
 
-.composicion, .marcas{
+.composicion, .marcas, .rotaciones{
     list-style: none; /* Quita los puntos de la lista */
     margin: 0; /* Aplica sangría en las líneas siguientes */
     text-indent: -30px; /* Ajusta la alineación del icono */
@@ -109,8 +113,37 @@ section {
     display: inline-block;
     width: 20px; /* Ajusta el ancho de la imagen */
     height: 20px; /* Ajusta la altura de la imagen */
-    background-image: url('../Assets/volley-listas.png');
+    background-image: url('../assets/volley-listas.png');
     background-size: cover; /* Escala la imagen dentro del espacio definido */
     margin-right: 10px; /* Espacio entre la imagen y el texto */
 }
 
+.dedos {
+    display: flex;
+    float: right;
+    width: 280px;
+    margin: 0 0 0 50px;
+}
+
+.challange {
+    display: flex;
+    float: left;
+    width: 250px;
+    margin: 0 50px 0 0;
+}
+
+.rotacion {
+    display: flex;
+    float: right;
+    width: 400px;
+    margin: 0 0 0 50px;
+}
+
+/* Footer */
+
+footer {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    border-top: 2px solid black;
+}
