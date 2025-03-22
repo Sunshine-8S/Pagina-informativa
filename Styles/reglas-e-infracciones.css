@@ -46,9 +46,10 @@ body {
     border-radius: 30%;
 }
 
-/* Main */
+/* Main Cancha */
 
-h1 {
+h1, h2 {
+    font-size: 40px;
     text-align: center;
 }
 
@@ -68,7 +69,7 @@ main {
     font-weight: bold; /* Pone en negrita el texto */
 }
 
-h2 {
+h3 {
     font-size: 25px;
     text-align: center;
     margin-bottom: 30px;
@@ -97,7 +98,7 @@ section {
     margin: 0 50px 0 0;
 }
 
-.composicion, .marcas, .rotaciones{
+.composicion, .marcas, .rotaciones, .bloqueo {
     list-style: none; /* Quita los puntos de la lista */
     margin: 0; /* Aplica sangría en las líneas siguientes */
     text-indent: -30px; /* Ajusta la alineación del icono */
@@ -132,11 +133,48 @@ section {
     margin: 0 50px 0 0;
 }
 
+.cancha {
+    display: flex;
+    float: right;
+    width: 250px;
+    margin: 0 0 0 50px;
+}
+
 .rotacion {
+    display: flex;
+    float: left;
+    width: 400px;
+    margin: 0 50px 0 0;
+}
+
+.servicio {
     display: flex;
     float: right;
     width: 400px;
     margin: 0 0 0 50px;
+}
+
+.malla {
+    display: flex;
+    float: left;
+    width: 370px;
+    margin: 0 50px 0 0;
+}
+
+/* Main - Playa */
+
+.playa {
+    display: flex;
+    float: right;
+    width: 350px;
+    margin: 0 0 0 50px;
+}
+
+.players {
+    display: flex;
+    float: left;
+    width: 300px;
+    margin: 0 50px 0 0;
 }
 
 /* Footer */
